@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Generator</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <section class="btn-generator">
+        <form id="controls">
+            <label for="text">text</label>
+            <input type="text" name="text" id="text">
+            <label for="color">color</label>
+            <input type="color" name="color" id="color">
+            <label for="backgroundColor">background-color</label>
+            <input type="color" name="backgroundColor" id="backgroundColor">
+            <label for="height">height</label>
+            <input type="range" name="height" id="height" min="10px" max="200px">
+            <label for="width">width</label>
+            <input type="range" name="width" id="width" min="10px" max="600px">
+            <label for="border">border</label>
+            <input type="text" name="border" id="border">
+            <label for="borderRadius">border-radius</label>
+            <input type="range" name="borderRadius" id="borderRadius" min="0" max="50">
+            <select name="fontFamily" id="fontFamily">
+                <option value="Arial">Arial</option>
+                <option value="Georgia">Georgia</option>
+                <option value="monospace">monospace</option>
+            </select>
+            <label for="fontSize">font-size</label>
+            <input type="number" name="fontSize" id="fontSize">
+        </form>
+
+        <section class="results">
+            <button class="btn">Clique</button>
+            <pre><code class="css-info">
+                <span></span>
+            </code></pre>
+        </section>
+    </section>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
