@@ -28,7 +28,21 @@ select {
   box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
 }
 
-.css-info span {
+.btn {
+  margin-bottom: 1rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.btn:active {
+  opacity: 1;
+}
+
+.css span {
   display: block;
   margin-bottom: 0.5rem;
 }
